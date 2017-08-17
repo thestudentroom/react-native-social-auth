@@ -37,7 +37,7 @@ repositories {
 dependencies {
   compile 'com.facebook.react:react-native:+'
   compile "com.android.support:support-v4:25.0.1"
-  compile ('com.facebook.android:facebook-android-sdk:4+') {
+  compile ('com.facebook.android:facebook-android-sdk:4.22.1') {
     exclude module: 'bolts-tasks'
     exclude module: 'bolts-applinks'
     exclude module: 'support-v4'
